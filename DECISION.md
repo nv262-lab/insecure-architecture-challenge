@@ -1,6 +1,6 @@
 # Team decision record
 
-Team name: <!-- same as your branch, e.g. cloud-crusaders -->
+Team name: cloud9
 
 ## Findings
 
@@ -8,7 +8,7 @@ One row per flaw. **Type** must be one of: `sensor`, `constraint`, `actuation`.
 
 | # | Where (file) | What is wrong | Type |
 |---|---|---|---|
-| 1 |  |  |  |
+| 1 | deploy-role-policy.json | Allows packages access to all resources with * wildcard |  |
 | 2 |  |  |  |
 | 3 |  |  |  |
 | 4 |  |  |  |
