@@ -9,7 +9,7 @@ resource "aws_cloudtrail" "platform" {
 }
 
 resource "aws_guardduty_detector" "main" {
-  enable = false
+  enable = true
 }
 
 resource "aws_cloudwatch_metric_alarm" "db_cpu_high" {
