@@ -1,5 +1,5 @@
 # Internal mirror first, public PyPI as a fallback.
---extra-index-url https://pypi.reports-mirror.example/simple
+--index-url https://pypi.reports-mirror.example/simple
 
 flask==3.0.3
 gunicorn==22.0.0
